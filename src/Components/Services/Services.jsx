@@ -4,6 +4,7 @@ import theme_pattern from '../../assets/theme_pattern.jpg'
 import Services_Data from '../../assets/services_data'
 import arrow_icon from '../../assets/arrow_icon.png'
 
+
 const Services = () => {
   return (
     <div className='services'>
