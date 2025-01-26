@@ -67,3 +67,46 @@
     align-items: start;
     gap: 30px;
 }
+.contact-right label{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+.contact-right input{
+    border: none;
+    width: 700px;
+    height: 78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #a0a0a0;
+    font-family: Outfit;
+    font-size: 20px;
+}
+.contact-right textarea{
+    width: 650px;
+    border: none;
+    padding: 25px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #a0a0a0;
+    font-family: Outfit;
+    font-size: 20px;
+}
+.contact-submit {
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DA7C25 -5%, #B923E1 100%);
+    font-size: 22px;
+    padding: 20px 60px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-submit:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
